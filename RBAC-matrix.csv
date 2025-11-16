@@ -1,0 +1,7 @@
+Role,Description,Permissions
+Payroll Initiator,User who creates payroll entries,"create_payroll"
+Payroll Approver,User who approves payroll entries,"approve_payroll"
+HR Admin,HR staff responsible for employee records,"read_employee,manage_onboarding,manage_offboarding"
+Finance Admin,Finance staff for reconciliations,"read_payroll,export_reports"
+Legal Read-Only,Legal team with view-only access,"read_payroll,read_employee"
+Temporary Admin,Just-in-time elevated role for admin tasks (time-limited),"elevated_admin"
